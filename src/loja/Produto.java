@@ -11,6 +11,15 @@ public class Produto {
 	private String categoria;
 	private double avaliacao;
 
+	public Produto(int id, String nome, String descricao, double preco, String categoria, double avaliacao) {
+		this.id = id;
+		this.nome = nome;
+		this.descricao = descricao;
+		this.preco = preco;
+		this.categoria = categoria;
+		this.avaliacao = avaliacao;
+	}
+
 	public int getId() {
 		return id;
 	}
